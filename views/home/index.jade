@@ -1,0 +1,83 @@
+html
+	head
+		title Baxel
+		link(type="text/css", rel="stylesheet", href="//cdn.muicss.com/mui-0.1.6/css/mui.min.css", media="screen")
+		link(type="text/css", rel="stylesheet", href="//www.muicss.com/static/cache/style.min-66b1c5e7.css", media="screen")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+	body
+		#g-wrapper
+			header.header-shadow
+				nav.mui-appbar(role="navigation")
+					.mui-container
+						table#appbar-inner
+							tbody
+								tr.mui-appbar-height
+									td
+										a#appbar-sidenav-toggle
+											i.icon-menu
+										a.appbar-brand(href="http://github.com/norman784/baxel", target="_blank") Baxel
+									td#appbar-cell-right
+										a.mui-hidden-xs(href="http://github.com/norman784/baxel", target="_blank") Documentation
+			.mui-appbar-height
+			.mui-container
+				#hero-panel.mui-panel
+					#f-welcome.mui-text-center
+						img(src="baxel-logo.png")
+				.mui-panel
+					h2 Introduction
+					p
+						| Baxel is a MVC web framework build on top of Koa,
+						| it born because there is no simple project that, IMO, doesn't is flexible
+						| and simple to use, and witch adopt the MVC architecture.
+					p
+						| The intention of this framework isn't not to build new tools to do the job,
+						| just to be a glue of existing projects. There is too many projects that
+						| creates their own ORM, ODM or just database driver, instead of integrate
+						| some of the nice available out there.
+					p
+						| Also it only will provide a structure, inspired on Rubi on Rails, that will
+						| allow you to organise better your projects, initialise your own or third party
+						| libraries, call in a easy way your models, helpers, etc.
+					hr
+					h2 Features
+					ul
+						li MVC architecture project
+						li Helpers support
+						li ORM, ODM or DB driver independent
+						li Easy way to instantiate your own libraries
+						li Easy way to call models and helpers from the controllers
+						li Well organized configuration files and routes
+						li Template support
+					h2 Usage
+					p Instalation
+					.highlight
+						pre npm install -g baxel
+					p Create a new Baxel project
+					.highlight
+						pre 
+							| baxel new blog
+							| cd blog
+					p
+						| Runinig Baxel for development, uses nodemon behind so the app will be
+						| restarted when changed made on the project
+					.highlight
+						pre baxel run
+					p Runing Baxel for production, its just like another nodejs app
+					.highlight
+						pre node app.js
+		footer
+			nav(role="navigation")
+				.mui-container
+					#g-footer.mui-text-center
+						ul.mui-list-unstyled.mui-list-inline
+							li
+								a(href="http://github.com/norman784/baxel", target="_blank") Github
+							li
+								a(href="http://github.com/norman784/baxel/issues", target="_blank") Support
+							li
+								a(href="https://www.muicss.com/", target="_blank") Theme
+						ul#g-footer-bottomlinks.mui-list-inline.mui-text-center
+							li Powered by Baxel
+		
+		script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+		script(type="text/javascript" src="//cdn.muicss.com/mui-0.1.6/js/mui.min.js")

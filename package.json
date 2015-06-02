@@ -1,0 +1,10 @@
+{
+  "name": "Baxel-Hamet",
+  "description": "Baxel Hamet is a Boxel application template project",
+  "version": "0.1.0",
+  "readme": "Readme.md",
+  "dependencies": {
+    "caminte": "0.0.25",
+    "jade": "^1.10.0"
+  }
+}
