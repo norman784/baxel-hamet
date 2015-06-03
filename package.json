@@ -1,7 +1,7 @@
 {
   "name": "Baxel-Hamet",
   "description": "Baxel Hamet is a Boxel application template project",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "readme": "Readme.md",
   "scripts": {
     "start": "node ./node_modules/baxel/bin/baxel.js"
