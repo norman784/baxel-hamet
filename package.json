@@ -1,7 +1,7 @@
 {
   "name": "baxel-hamet",
   "description": "Baxel Hamet is a Boxel application template project",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "readme": "Readme.md",
   "repository": {
     "type": "git",
@@ -11,6 +11,7 @@
     "start": "node ./node_modules/baxel/bin/baxel.js"
   },
   "dependencies": {
+    "baxel": "^0.2.3",
     "caminte": "0.0.25",
     "jade": "^1.10.0"
   }
