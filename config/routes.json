@@ -1,0 +1,13 @@
+{
+  "root": {
+    "root": "home#index",
+    "example": {
+      "index": { "get": "home#index" },
+      "search": { "get": "home#index" }
+    }
+  },
+  "api": {
+    "subdomain": ["subdomain", "subdomain-dev"],
+    "root": "api#index"
+  }
+}

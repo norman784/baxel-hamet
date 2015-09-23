@@ -1,0 +1,25 @@
+{
+	"public_path": "/public",
+	"upload": {
+		"upload_path": "/tmp/uploads",
+		"multipart": false
+	},
+  "csrf": {
+    "saltLength": 8,
+    "secretLength": 18
+  },
+  "session": {
+    "keys": ["some secret hurr"]
+  },
+  "i18n": {
+    "locales": ["en", "es"],
+    "modes": [
+      "query",
+      "subdomain",
+      "cookie",
+      "header",
+      "url",
+      "tld"
+    ]
+  }
+}
