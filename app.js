@@ -1,3 +1,5 @@
-var baxel = require('baxel')();
+"use strict";
+
+let baxel = require('baxel')();
 
 baxel.run();
