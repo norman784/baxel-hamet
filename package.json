@@ -1,17 +1,19 @@
 {
   "name": "baxel-hamet",
   "description": "Baxel Hamet is a Boxel application template project",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "readme": "Readme.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/norman784/baxel-hamet"
   },
   "scripts": {
-    "start": "node ./node_modules/baxel/bin/baxel.js"
+    "start": "node --use_strict ./node_modules/baxel/bin/baxel.js"
   },
   "dependencies": {
-    "baxel": "^0.5.0",
-    "jade": "^1.11.0"
+    "baxel": "^0.6.0",
+    "jade": "^1.11.0",
+    "koa-i18n": "^1.1.0",
+    "koa-locale": "^1.0.0"
   }
 }
